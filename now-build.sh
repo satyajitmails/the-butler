@@ -3,7 +3,7 @@
 echo 'Installing PHP...'
 if [ -z $PHP_VERSION ]
 then
-  PHP_V='72'
+  PHP_V='73'
 else
   PHP_V=${PHP_VERSION//./}
 fi
